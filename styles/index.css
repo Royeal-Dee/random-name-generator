@@ -1,0 +1,64 @@
+.page-container {
+  display: flex;
+}
+
+.left-column {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  position: relative;
+  left: 0;
+  top: 0;
+  padding-top: 0;
+  background-color: #ff91af;
+}
+
+.chop-block {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+}
+
+.chop-list {
+  font-size: 14px;
+}
+
+.right-column {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+
+.rand-generator {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chop-list-shuffler {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 33px;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.shuffle {
+  text-align: center;
+  padding: 13px 13px 13px 13px;
+  font-size: 22px;
+  border-radius: 3px;
+  background-color: #ff91af;
+  color: black;
+  text-align: center;
+  margin-block: 20%;
+} /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,42 @@
+@import "./variable.scss";
+@import "./common.scss";
+
+:root {
+}
+.sidebar {
+  display: flex;
+  height: 100%;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #ff91af;
+}
+
+.chop-list {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+  // display: flex;
+  // justify-content: center;
+}
+.rand-generator {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chop-block {
+  display: flex;
+}
+
+.button {
+  padding: 3px 10px;
+  font-size: 13px;
+  border-radius: 3px;
+  color: #ff91af;
+}
